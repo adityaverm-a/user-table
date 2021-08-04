@@ -22,3 +22,13 @@ body {
 .table-container {
      padding: 1em 5em;
 }
+
+@media (max-width: 376px) {
+     .container {
+          padding: 0;
+     }
+
+     .table-container {
+          padding: 1em 0.2em;
+     }
+}
